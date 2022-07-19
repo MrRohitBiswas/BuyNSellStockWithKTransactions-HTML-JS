@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="details">Hi this is my internship code by Rohit Biswas 8420743341</div>
+    <br><br>
+    <div class="question">Given an array of positive integers representing the prices of a single stock on
+        various days (each index in the array represents a different day). <br><br> You're also
+        given an integer: k, which represents the number of transactions
+          you're allowed to make. One transaction consists of buying the stock on a
+          given day and selling it on another, later day.
+          <br>
+          <br>
+        
+        
+          Write a function that returns the maximum profit that you can make by buying
+          and selling the stock, given k transactions.
+        
+        
+        
+          Note that you can only hold one share of the stock at a time; in other words,
+          you can't buy more than one share of the stock on any given day, and you can't
+          buy a share of the stock if you're still holding another share. Also, you
+          don't need to use all k transactions that you're allowed.
+          <br>
+          <br>
+        
+        Sample Input :
+        <br> 
+        prices = [5,11,3,50,60,90] <br>
+        k=2
+        <br><br>
+        Sample Output: <br>
+        93 <br><br>
+        Explanation: Buy : 5, Sell :11, Buy: 3, Sell:90
+        <br>
+        Profit :93
+    </div>
+    <br>
+    <br>
+    <div class="inputs">Enter the data</div>
+    <br>
+    <label for="Days">Enter the number of days</label>
+    <input type="number" name="" id="totDays" min="0">
+    <br>
+    <br>
+    <label for="transactions">Enter the number of transactions</label>
+    <input type="number" name="" id="noTrans" min="0">
+    <br>
+    <br>
+    <input type="button" value="Save" onclick="savedata()">
+    <input type="button" value="Show Data" onclick="displayData()">
+    <br>
+    <br>
+    <div id="output" style="color: rgb(141, 96, 12);"></div>
+    </body>
+<script src="javascript.js"></script>
+</html>
